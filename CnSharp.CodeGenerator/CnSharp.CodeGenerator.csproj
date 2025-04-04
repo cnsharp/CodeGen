@@ -10,6 +10,9 @@
         <PackageTags>Code Generator,XSLT</PackageTags>
         <PackageIcon>CnSharp-icon-256x256.png</PackageIcon>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageProjectUrl>https://github.com/cnsharp/CodeGen</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/cnsharp/CodeGen.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
