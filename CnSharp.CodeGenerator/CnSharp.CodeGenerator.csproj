@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+        <Title>CnSharp.CodeGenerator</Title>
+        <Description>CnSharp code generator, use XSLT as default template.</Description>
+        <Copyright>Copyright © CnSharp 2010-2025</Copyright>
+        <PackageTags>Code Generator,XSLT</PackageTags>
+        <PackageIcon>CnSharp-icon-256x256.png</PackageIcon>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\assets\CnSharp-icon-256x256.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>CnSharp-icon-256x256.png</Link>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CnSharp.Core" Version="2.1.1" />
+    </ItemGroup>
+
+</Project>
